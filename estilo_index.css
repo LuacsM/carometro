@@ -144,11 +144,11 @@ p {
 @media (min-width: 700px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;
   }
 
   #seção-a .content-text {
-    columns: 2;
+    columns: 1;
     column-gap: 2em;
   }
 
@@ -172,7 +172,7 @@ p {
   }
 
   #seção-b li, #seção-b2 li , #seção-b3 li{
-    width: 31%;
+    width: 19%;
   }
 
   /*---------------------------------------------------------------------------*/
