@@ -140,6 +140,10 @@ p {
   background: #2690d4;
 }
 
+#seção-d a {
+  color: #2690d4;
+  text-decoration: none;
+}
 /* Footer */
 
 #main-footer {
@@ -152,6 +156,8 @@ p {
 #main-footer a {
   color: #2690d4;
   text-decoration: none;
+
+
 }
 
 /* Media Queries */
