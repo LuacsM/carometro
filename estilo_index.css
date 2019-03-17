@@ -99,17 +99,17 @@ p {
 
 /* Section B--------------------------------------------------------------- */
 
-#seção-b, #seção-b2, #seção-b3 {
-  padding: 2em 1em 1em;
+#seção-b, #seção-b2, #seção-b3, #seção-b4, #seção-b5, #seção-b6 {
+  padding: 0em 1em 0em;
 }
 
-#seção-b ul, #seção-b2 ul , #seção-b3 ul{
+#seção-b ul, #seção-b2 ul , #seção-b3 ul, #seção-b4 ul, #seção-b5 ul, #seção-b6 ul{
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#seção-b li, #seção-b2 li , #seção-b3 li{
+#seção-b li, #seção-b2 li , #seção-b3 li, #seção-b4 li, #seção-b5 li, #seção-b6 li{
   margin-bottom: 1em;
   background: #fff;
   color: #333;
@@ -124,7 +124,7 @@ p {
 /* Section C */
 
 #seção-c {
-  background: #fff;
+  background: #eaeaea;
   color: #333;
   padding: 2em;
 }
@@ -178,7 +178,7 @@ p {
   }
 /*-----------------------------------------------------------------------*/
   .content-wrap,
-  #seção-b ul, #seção-b2 ul, #seção-b3 ul{
+  #seção-b ul, #seção-b2 ul, #seção-b3 ul, #seção-b4 ul, #seção-b5 ul, #seção-b6 ul{
     grid-column: 2/4;
   }
 
@@ -187,12 +187,12 @@ p {
     grid-column: span 2;
   }
 
-  #seção-b ul, #seção-b2 ul, #seção-b3 ul{
+  #seção-b ul, #seção-b2 ul, #seção-b3 ul, #seção-b4 ul, #seção-b5 ul, #seção-b6 ul{
     display: flex;
     justify-content: space-around;
   }
 
-  #seção-b li, #seção-b2 li , #seção-b3 li{
+  #seção-b li, #seção-b2 li , #seção-b3 li, #seção-b4 li, #seção-b5 li, #seção-b6 li{
     width: 19%;
   }
 
