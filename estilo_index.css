@@ -136,7 +136,7 @@ p {
   color: #fff;
 }
 
-#seção-d .box:first-child {
+#seção-d .box:last-child {
   background: #2690d4;
 }
 
